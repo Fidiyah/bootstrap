@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-
+         scale=1.0">
+         <title>bootstrap modal</title>
+         <!--load bootstrap css-->
+         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+         <!--load jquery and bootstrap js-->
+         <script src="assets/js/jquery.min.js"></script>
+         <script src="assets/js/popper.min.js"></script>
+         <script src="assets/js/bootstrap.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h5>bootstrap Modal</h5>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#largeModal">
+                large Modal
+            </button>
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#mediumModal">
+                medium Modal
+            </button>
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#smallModal">
+                small Modal
+            </button>
+        </div>
+        <!--modal large-->
+        <div class="modal fade" id="largeModal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header bg-success text-white">
+                        <h4>large modal</h4>
+                        <span class="close" data-dissmiss="modal">&times;</span>
+                    </div>
+                        <div class="modal-body">
+                        
+                            Lapisan ozon menipis. Hutan-hutan tropis mulai meranggas.
+                            Gurun makin luas. Akibatnya suhu bumi meningkat, 
+                            cuaca tidak menentu, dan bencana 
+                            alam makin sering datang. Kesimpulannya,
+                             bumi makin kritis. Siapa sesungguhnya yang 
+                             berperan dalam menjadikan planet bumi ini menjadi 
+                             demikian? Jawabnya tentu manusia sendiri! 
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-sm btn-success">save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--modal medium-->
+        <div class="modal fade" id="mediumModal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header bg-info text-white">
+                        <h4>large modal</h4>
+                        <span class="close" data-dissmiss="modal">&times;</span>
+                    </div>
+                        <div class="modal-body">
+                        
+                            Lapisan ozon menipis. Hutan-hutan tropis mulai meranggas.
+                            Gurun makin luas. Akibatnya suhu bumi meningkat, 
+                            cuaca tidak menentu, dan bencana 
+                            alam makin sering datang. Kesimpulannya,
+                             bumi makin kritis. Siapa sesungguhnya yang 
+                             berperan dalam menjadikan planet bumi ini menjadi 
+                             demikian? Jawabnya tentu manusia sendiri! 
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-sm btn-info">save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+<!--modal small-->
+<div class="modal fade" id="smallModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h4>large modal</h4>
+                <span class="close" data-dissmiss="modal">&times;</span>
+            </div>
+                <div class="modal-body">
+                
+                    Lapisan ozon menipis. Hutan-hutan tropis mulai meranggas.
+                    Gurun makin luas. Akibatnya suhu bumi meningkat, 
+                    cuaca tidak menentu, dan bencana 
+                    alam makin sering datang. Kesimpulannya,
+                     bumi makin kritis. Siapa sesungguhnya yang 
+                     berperan dalam menjadikan planet bumi ini menjadi 
+                     demikian? Jawabnya tentu manusia sendiri! 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-danger">save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    </body>
+</html>
